@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="3" time="0.058"><testcase classname="test_failure" file="test_failure.py" line="0" name="test_fail" time="0.007687568664550781"><failure message="assert 1 == 2">def  test_fail():
+        a = 1
+        b = 2
+&gt;       assert a == b
+E       assert 1 == 2
+
+test_failure.py:4: AssertionError</failure></testcase><testcase classname="test_math" file="test_math.py" line="0" name="test_add" time="0.0010221004486083984"></testcase><testcase classname="test_math" file="test_math.py" line="4" name="test_multiply" time="0.0009300708770751953"></testcase></testsuite>
